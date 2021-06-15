@@ -78,29 +78,28 @@ button:active {
 	font-size: 1.5rem;
 }
 
-.loader {
-	border: 16px solid #f3f3f3; /* Light grey */
-	border-top: 16px solid #333; /* dark grey */
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
 @media screen and (max-width: 1000px) {
 	.quote-container {
-		margin: auto 40px;
+		margin: 40px 40px;
 	}
 	.quote-text {
 		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.quote-container {
+		margin: 40px 40px;
+	}
+	.quote-text {
+		font-size: 2rem;
+	}
+	.quote-author {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+	.button-container {
+		gap: 10px;
+		transform: scale(0.9);
 	}
 }
