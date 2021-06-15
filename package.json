@@ -1,0 +1,22 @@
+{
+	"name": "small_quote_generator",
+	"version": "1.0.0",
+	"description": "Quote Generator",
+	"main": "script.js",
+	"scripts": {
+		"test": "node-sass src/main.scss dist/style.css -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hamza-ihind/Small_Quote_Generator.git"
+	},
+	"author": "E11even",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hamza-ihind/Small_Quote_Generator/issues"
+	},
+	"homepage": "https://github.com/hamza-ihind/Small_Quote_Generator#readme",
+	"dependencies": {
+		"node-sass": "^6.0.0"
+	}
+}
